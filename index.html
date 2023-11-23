@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Mobile First</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <h1 class="header__title">Mobile First</h1>
+
+        <!-- Mobile Menu -->
+        <nav class="header__mobile-menu">
+            <input type="checkbox" class="header__burger" id="burger">
+            <label class="header__burger-btn" for="burger">
+                <span></span>
+            </label>
+            <ul class="header__menu-list">
+                <li class="header__list-item"><a href="#" class="header__menu-link">Hem</a></li>
+                <li class="header__list-item"><a href="#" class="header__menu-link">Nyheter</a></li>
+                <li class="header__list-item"><a href="#" class="header__menu-link">Om oss</a></li>
+                <li class="header__list-item"><a href="#" class="header__menu-link">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <!-- Desktop Menu -->
+        <nav class="header__desktop-menu">
+            <ul class="header__menu-list">
+                <li class="header__list-item"><a href="#" class="header__menu-link">Hem</a></li>
+                <li class="header__list-item"><a href="#" class="header__menu-link">Nyheter</a></li>
+                <li class="header__list-item"><a href="#" class="header__menu-link">Om oss</a></li>
+                <li class="header__list-item"><a href="#" class="header__menu-link">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="page-wrapper">
+            <article class="hero-section__article hero-section__article--main-article">
+                <div class="hero-section__img-container">
+                    <img src="./img/hyllning.jpg" alt="" class="hero-section__img">
+                </div>
+                <h2 class="hero-section__article-title">Officiellt: Jesper hyllas av alla!</h2>
+                <p class="hero-section__info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat cupiditate excepturi cum tempora accusantium expedita...</p>
+            </article>
+            <article class="hero-section__article">
+                <div class="hero-section__img-container">
+                    <img src="./img/minnen.jpg" alt="" class="hero-section__img">
+                </div>
+                <h2 class="hero-section__article-title">Jespers topp 5 bästa barndomsminnen</h2>
+                <p class="hero-section__info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat cupiditate excepturi cum tempora accusantium expedita...</p>
+            </article>
+            <article class="hero-section__article">
+                <div class="hero-section__img-container">
+                    <img src="./img/fira.jpg" alt="" class="hero-section__img">
+                </div>
+                <h2 class="hero-section__article-title">Jesper avslöjar: Så firar han den perfekta julen</h2>
+                <p class="hero-section__info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat cupiditate excepturi cum tempora accusantium expedita...</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <div class="page-wrapper">
+        <section class="news-section">
+            <h1 class="news-section__title">Nyheter</h1>
+            <ul class="news-section__news-list">
+                <!-- Article -->
+                <li class="news-section__news-item">
+                    <article class="news-section__article">
+                        <div class="news-section__img-container">
+                            <img src="./img/zebra.jpg" alt="" class="news-section__img">
+                        </div>
+                        <div class="news-section__content">
+                            <h2 class="news-section__article-title">Jespers nya favorit på savannen</h2>
+                            <p class="news-section__info-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quisquam?
+                            </p>
+                        </div>
+                    </article>
+                </li>
+                <!-- Article -->
+                <li class="news-section__news-item">
+                    <article class="news-section__article">
+                        <div class="news-section__img-container">
+                            <img src="./img/vandring.jpg" alt="" class="news-section__img">
+                        </div>
+                        <div class="news-section__content">
+                            <h2 class="news-section__article-title">Jesper tipsar: Grums 20 bästa vandringsstråk</h2>
+                            <p class="news-section__info-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quisquam?
+                            </p>
+                        </div>
+                    </article>
+                </li>
+                <!-- Article -->
+                <li class="news-section__news-item">
+                    <article class="news-section__article">
+                        <div class="news-section__img-container">
+                            <img src="./img/skratt.jpg" alt="" class="news-section__img">
+                        </div>
+                        <div class="news-section__content">
+                            <h2 class="news-section__article-title">Jesper: "Jag har aldrig varit lyckligare"</h2>
+                            <p class="news-section__info-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quisquam?
+                            </p>
+                        </div>
+                    </article>
+                </li>
+                <!-- Article -->
+                <li class="news-section__news-item">
+                    <article class="news-section__article">
+                        <div class="news-section__img-container">
+                            <img src="./img/verktyg.jpg" alt="" class="news-section__img">
+                        </div>
+                        <div class="news-section__content">
+                            <h2 class="news-section__article-title">Jesper: "Så uppgraderar du din verktygslåda"</h2>
+                            <p class="news-section__info-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quisquam?
+                            </p>
+                        </div>
+                    </article>
+                </li>
+                <!-- Article -->
+                <li class="news-section__news-item">
+                    <article class="news-section__article">
+                        <div class="news-section__img-container">
+                            <img src="./img/gadda.jpg" alt="" class="news-section__img">
+                        </div>
+                        <div class="news-section__content">
+                            <h2 class="news-section__article-title">Jesper öppnar upp: "Därför badar jag inte i havet"</h2>
+                            <p class="news-section__info-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quisquam?
+                            </p>
+                        </div>
+                    </article>
+                </li>
+                <!-- Article -->
+                <li class="news-section__news-item">
+                    <article class="news-section__article">
+                        <div class="news-section__img-container">
+                            <img src="./img/pussel.jpg" alt="" class="news-section__img">
+                        </div>
+                        <div class="news-section__content">
+                            <h2 class="news-section__article-title">Jesper tipsar! Bästa sätten att varva ner</h2>
+                            <p class="news-section__info-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quisquam?
+                            </p>
+                        </div>
+                    </article>
+                </li>
+                <!-- Article -->
+                <li class="news-section__news-item">
+                    <article class="news-section__article">
+                        <div class="news-section__img-container">
+                            <img src="./img/sick.jpg" alt="" class="news-section__img">
+                        </div>
+                        <div class="news-section__content">
+                            <h2 class="news-section__article-title">Jesper: "Därför lider jag mer än andra..."</h2>
+                            <p class="news-section__info-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quisquam?
+                            </p>
+                        </div>
+                    </article>
+                </li>
+                <!-- Article -->
+                <li class="news-section__news-item">
+                    <article class="news-section__article">
+                        <div class="news-section__img-container">
+                            <img src="./img/tomten.jpg" alt="" class="news-section__img">
+                        </div>
+                        <div class="news-section__content">
+                            <h2 class="news-section__article-title">Jesper erkänner: "Jag väntar fortfarandepå tomten"</h2>
+                            <p class="news-section__info-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quisquam?
+                            </p>
+                        </div>
+                    </article>
+                </li>
+                <!-- Article -->
+                <li class="news-section__news-item">
+                    <article class="news-section__article">
+                        <div class="news-section__img-container">
+                            <img src="./img/spurs.jpg" alt="" class="news-section__img">
+                        </div>
+                        <div class="news-section__content">
+                            <h2 class="news-section__article-title">Avslöjar: Därför avskyr Jesper Tottenham!</h2>
+                            <p class="news-section__info-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quisquam?
+                            </p>
+                        </div>
+                    </article>
+                </li>
+                <!-- Article -->
+                <li class="news-section__news-item">
+                    <article class="news-section__article">
+                        <div class="news-section__img-container">
+                            <img src="./img/lego.jpg" alt="" class="news-section__img">
+                        </div>
+                        <div class="news-section__content">
+                            <h2 class="news-section__article-title">Jesper tipsar! 5 tecknade filmer att somna till</h2>
+                            <p class="news-section__info-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quisquam?
+                            </p>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="page-footer">
+        <div class="page-wrapper">
+            <h3 class="page-footer__copyright">Copyright by Jesper</h3>
+        </div>
+    </footer>
+</body>
+</html>
