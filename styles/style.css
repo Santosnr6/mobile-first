@@ -312,13 +312,20 @@ body {
     .hero-section__article--main-article {
         width: 100%;
     }
-
-    .hero-section__article--main-article .hero-section__img-container {
-        height: 500px;
-    }
     
     .news-section__news-item {
         width: 33%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    body {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .page-footer {
+        margin-top: 1rem;
     }
 }
 
